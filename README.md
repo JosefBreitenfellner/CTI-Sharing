@@ -24,13 +24,14 @@ Anleitung zur Nutzung:
   
 - In der JavaScript Datei muss zusätzlich die Adresse vom Account, von welchem die Transaktion durchgeführt wird neu eingetragen werden. Hierzu kann die Adresse
   eines beliebigen Accounts aus Ganache gewählt werden. 
-  --> contractInstance.methods.setObjects(data[i].id, data[i].created, data[i].modified, data[i].description).send({ from: [hier die Adresse eintragen],  
-      gas:3000000 });
+  --> contractInstance.methods.setObjects(data[i].id, data[i].created, data[i].modified, data[i].description).send({ from: [hier die Adresse eintragen], gas:3000000 });
 
-- Die Anwendung muss aufgrund von Google Chrome's CORS Policies aus der Konsole gestartet werden (ersetzten Sie "Pfad der Website" mit Ihrem tatsächlichen Pfad).
+- Die Anwendung muss aufgrund von Google Chrome's CORS Policies aus der Konsole gestartet werden (ersetzten Sie [Pfad der Website] mit Ihrem tatsächlichen Pfad).
   
   MacOS: open -a "Google Chrome" [Pfad der Website]/index.html  --args --allow-file-access-from-files
   
-  Win10: start chrome --allow-file-access-from-files file:\\\["Pfad der Website"]\index.html
+  Win10: start chrome --allow-file-access-from-files file:\\\[Pfad der Website]\index.html
   
 Anschliesend kann die Anwendung über den Browser Google Chrome genutzt werden. Der Smart Contract muss nur bei der ersten Nutzung deployed werden. Das Webinterface muss für jede Benutzung über die Konsole geöffnet werden.
+
+Wird nach dem Anzeigen aller Daten in der Tabelle erneut ein Report gespeichert, muss die Seite aktualisiert werden, da ansonsten Einträge mehrmals in der Tabelle auftreten.
