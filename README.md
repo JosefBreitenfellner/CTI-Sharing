@@ -5,7 +5,12 @@ Der Ordner contract beinhaltet den Smart Contract StoreData.sol sowie weitere Me
 Der Ordner client beinhaltet das HTML-Webinterface, sowie die dazu benötigten Bilddateien (Logo, Background). Außerdem ist darin die JavaScript Datei entahlten, welche die Funktionen des Smart Contracts aufruft.
 
 Anleitung zur Nutzung:
+
 - Repository herunterladen und entpacken
+
+- Nodejs herunterladen (Link: https://nodejs.org/en/)
+
+- Truffle installieren (Konsolen-Befehlt: npm install -g truffle)
 
 - Ganache herunterladen (Link: https://www.trufflesuite.com/ganache)
 
