@@ -16,10 +16,9 @@ Anleitung zur Nutzung:
 
 - Ganache öffnen und eine neue Workspace erstellen --> add project --> truffle-config.js öffnen --> save workspace
 
-- Nutzen Sie zum deployen des Smart Contracts den Konsolen-Befehl "truffle migrate --compile-all --reset --network ganache"
-  --> dazu müssen Sie in der Konsole in das Verzeichnis/ den Ordner 'contract' wechseln (auf MacOS mit cd)
+- Nutzen Sie zum deployen des Smart Contracts den Konsolen-Befehl "truffle migrate --compile-all --reset --network ganache" --> dazu müssen Sie in der Konsole in das Verzeichnis/ den Ordner 'contract' wechseln (auf MacOS mit cd)
 
-- In der JavaScript Datei ctiFunctions.js muss nach dem deployen des Smart Contracts die Adresse des Smart Contracts StoreData in die Konstante contractAdress neu eingetragen werden. Die Adresse findet man nach dem deployen in Ganache unter Contracts --> StoreData.
+- In der JavaScript Datei ctiFunctions.js muss nach dem deployen des Smart Contracts die Adresse des Smart Contracts StoreData in die Konstante contractAdress neu eingetragen werden. Die Adresse findet man nach dem deployen in Ganache unter Contracts (StoreData).
   
 - In der JavaScript Datei muss zusätzlich die Adresse vom Account, von welchem die Transaktion durchgeführt wird neu eingetragen werden. Hierzu kann die Adresse
   eines beliebigen Accounts aus Ganache gewählt werden. 
