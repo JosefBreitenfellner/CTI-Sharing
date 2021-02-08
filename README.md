@@ -31,5 +31,3 @@ Anleitung zur Nutzung:
   Win10: start chrome --allow-file-access-from-files file:\\\[Pfad der Website]\index.html
   
 Anschliesend kann die Anwendung über den Browser Google Chrome genutzt werden. Der Smart Contract muss nur bei der ersten Nutzung deployed werden. Das Webinterface muss für jede Benutzung über die Konsole geöffnet werden.
-
-Wird nach dem Anzeigen aller Daten in der Tabelle erneut ein Report gespeichert, muss die Seite aktualisiert werden, da ansonsten Einträge mehrmals in der Tabelle auftreten.
