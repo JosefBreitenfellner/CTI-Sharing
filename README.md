@@ -31,3 +31,5 @@ Anleitung zur Nutzung:
   Win10: start chrome --allow-file-access-from-files file:\\\[Pfad der Website]\index.html
   
 Anschliesend kann die Anwendung über den Browser Google Chrome genutzt werden. Der Smart Contract muss nur bei der ersten Nutzung deployed werden. Das Webinterface muss für jede Benutzung über die Konsole geöffnet werden.
+
+Die CTI-Reports müssen in dem Ordner client/CTI-Files gespeichert werden. Dort befinden sich schon ein paar Testdaten aus dem GitHub Ordner: https://github.com/mitre/cti/tree/master/enterprise-attack
